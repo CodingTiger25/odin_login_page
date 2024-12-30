@@ -1,3 +1,65 @@
 .flex-container{
     display: flex;
+    flex-flow: row wrap;
+}
+
+.right_side{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 900px;
+    top: 350px;
+}
+.page_b{
+    
+    justify-content: left;
+    width: 20%;
+}
+.middle_form{
+    justify-content: center;
+}
+
+.form_content{
+    
+    position: relative;
+    flex-direction: column;
+    top: 400px;
+    left: -200px
+}
+
+input{
+    border : 2px solid #000;
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fl_field{
+    margin: 20px;
+}
+
+.ep_field{
+    margin: 20px;
+}
+
+.pass{
+    margin: 20px;
+}
+
+.bottom_text{
+
+    position: relative;
+    top: 700px;
+    left: 900px;
+}
+
+.create_button{
+
+    
+
+    button{
+        background-color: green;
+        color: white;
+    }
 }
