@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 
 .flex-container{
@@ -19,29 +17,35 @@
 .left_side{
    
     position: absolute;
-    width: 420vh;
+    width: 340vh;
     left: 0px;
 }
 
 .right_side{
-   position: absolute;
+   position: relative;
    width: 50%;
-   right: 0px;
+   left: 1200px;
 }
 .page_b{
     
     justify-content: left;
     width: 20%;
 }
-.middle_form{
-    justify-content: center;
+.top_page{
+    background: lightgrey;
+    height: 33%;
+}
+.middle_page{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    position: relative;
+    top: 500px;
+    padding: 10%;
 }
 
 .form_content{
     
-    position: relative;
-    top: 400px;
-    left: -200px
+   
 }
 
 input{
@@ -64,11 +68,11 @@ input{
     margin: 20px;
 }
 
-.bottom_text{
+.bottom_right{
 
     position: relative;
     top: 700px;
-    left: 900px;
+    left: 50px;
 }
 
 .create_button{
@@ -76,6 +80,8 @@ input{
     
 
     button{
+
+        font-size: 25px;
         background-color: green;
         color: white;
     }
