@@ -1,14 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .flex-container{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
+    height: 100%;
+}
+.container{
+    display: table;
+}
+
+.container > div {
+    flex: 4;
+}
+
+.left_side{
+   
+    position: absolute;
+    width: 420vh;
+    left: 0px;
 }
 
 .right_side{
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    left: 900px;
-    top: 350px;
+   position: absolute;
+   width: 50%;
+   right: 0px;
 }
 .page_b{
     
@@ -22,7 +40,6 @@
 .form_content{
     
     position: relative;
-    flex-direction: column;
     top: 400px;
     left: -200px
 }
