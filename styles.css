@@ -69,6 +69,10 @@ input{
     margin: 20px;
 }
 
+input[type=password] {
+    border-color: red;
+}
+
 .bottom_right{
 
     position: relative;
